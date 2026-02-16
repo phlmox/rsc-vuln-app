@@ -1,0 +1,39 @@
+# Dependencies
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+
+# Build
+.next
+out
+build
+dist
+
+# Git
+.git
+.gitignore
+
+# IDE / OS
+.DS_Store
+*.pem
+.idea
+.vscode
+*.swp
+*.swo
+
+# Env (opsiyonel; container'da ayrı verilir)
+.env
+.env*.local
+
+# Test / coverage
+coverage
+.nyc_output
+*.test.*
+*.spec.*
+
+# Docs (proje dışı)
+README.md
+*.md
